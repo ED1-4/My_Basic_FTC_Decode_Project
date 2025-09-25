@@ -24,6 +24,7 @@ public class Decode extends LinearOpMode {
         DcMotor acceleratorR = hardwareMap.get(DcMotor.class, "dev-name-right");
 
         boolean acceleraters_on = false;
+        boolean test = true;
 
         DcMotor frontLeftMotor = hardwareMap.dcMotor.get("mecFrontLeft");
         DcMotor backLeftMotor = hardwareMap.dcMotor.get("mecBackLeft");
